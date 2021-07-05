@@ -1,8 +1,12 @@
 html,body{
-    height: 100%;
+    max-height: 100vh;
     width: 100%;
     font-family: 'Poppins',sans-serif ;
-    background-color: slategrey;
+    background-color: slategrey
+  }
+  .padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
   .navbar{
@@ -29,3 +33,51 @@ html,body{
     position: absolute;
     transform: translateY(-50%);
   }
+
+  .carousel-item{
+    color:rgb(17, 17, 17);
+  }
+
+  .carousel-indicators li{
+    position:relative;
+    bottom: -35px;
+    background-color: red;
+  }
+  
+  .about p,ul{
+    font-size: 20px
+  }
+
+  .my-picture{
+    height: 25%;
+    width: auto;
+    box-shadow: 5px 2px 5px 5px black;
+  }
+
+  .fa-react{
+    color:rgb(73, 205, 238)
+  }
+  
+  .fa-python{
+    color:rgb(2, 88, 2)
+  }
+
+  .fa-github{
+    color:blanchedalmond
+  }
+  
+  .fa-strava{
+    color:orange
+  }
+
+  .fa-linkedin{
+    color:rgb(26, 26, 247)
+  }
+
+  .fa-github, .fa-strava, .fa-linkedin{
+    font-size: 4em;
+    margin: 1rem
+  }
+
+
+

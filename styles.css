@@ -1,14 +1,14 @@
 html,body{
-    max-height: 100vh;
-    width: 100%;
-    font-family: 'Poppins',sans-serif ;
+    height: 100vh;
+    width: 100vw;
+    padding:0;
     background-color: slategrey
   }
   .padding{
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  
+
   .navbar{
     padding: .8rem;
     background-color: orange;
@@ -49,7 +49,7 @@ html,body{
   }
 
   .my-picture{
-    height: 25%;
+    height: 33vw;
     width: auto;
     box-shadow: 5px 2px 5px 5px black;
   }
